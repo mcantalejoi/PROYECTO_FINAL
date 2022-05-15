@@ -1,6 +1,14 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage{float}
+\usepackage{amsfonts}
+\usepackage{amsmath,array}
+\usepackage{booktabs}
+\usepackage{amssymb}
+\usepackage{nomencl}
+\usepackage{graphicx}
+\usepackage{multicol}
 
 \begin{document}
 
@@ -8,9 +16,7 @@
 \author{Cantalejo, M}
 \maketitle
 %%\tableofcontents
-\abstract{URL repositorio remoto: https://github.com/mcantalejoi/PROYECTO_FINAL.git
-
-cuidado el nombre del repositorio es PROYECTO FINAL con un guión bajo entre medias de las dos palabras 
+\abstract{URL repositorio remoto: https://github.com/mcantalejoi/PROYECTO$\_$FINAL.git
 
 aquí va un resumen de lo que va el articulo
 }
@@ -27,7 +33,6 @@ The paper is organized as follows. In section 3 the methodology and data avaiabl
 
 
 \section{Data and methods}\label{sec2}
-Añadir figura y formulas 
 \subsection{Data} 
 Daily precipitation measurements were obtained from meteorological station (no. 176) located near the coast of Salobreña (Granada, South Spain). The mean annual rainfall recorded for the period 1970 -2005 is 603 mm, with minimum and maximum values of 380 mm and 986 mm respectively. Precipitation data show a strong inter-annual variability through the year with rainfall events that reached 50 mm/day on winter to 5 mm/day on summer, as well as precipitation occurrence which is 10 times more frequent in winter than summer.
 
@@ -82,7 +87,8 @@ The $\mu$ from $\Delta n_{wet}$  and 95CI  is reduced from raw rainfall series t
 \begin{left}
 \begin{minipage}{300pt}
 \caption{Caption text}\label{tab1}%
-\begin{tabular}{@{}llll@{}}
+\begin{tabular}{@{}llll1@{}}
+
 \toprule
 Time-series & Dec-Feb & Mar-May & Jun-Aug & Sep-Nov \\
 \midrule
