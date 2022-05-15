@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2021.4.21)  15 MAY 2022 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2021.4.21)  15 MAY 2022 18:39
 entering extended mode
 **./ARTICLE.tex
 (ARTICLE.tex
@@ -61,17 +61,7 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count185
 \l__pdf_internal_box=\box47
 )
-(ARTICLE.aux
-
-LaTeX Warning: Label `sec1' multiply defined.
-
-
-LaTeX Warning: Label `sec1' multiply defined.
-
-
-LaTeX Warning: Label `sec1' multiply defined.
-
-)
+(ARTICLE.aux)
 \openout1 = `ARTICLE.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -133,13 +123,13 @@ OYECTO$[]\OML/cmm/m/it/10 INAL:git[]$
  []
 
 ! Too many }'s.
-l.15 }
+l.17 }
       
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 ! Undefined control sequence.
-l.18 \keywords
+l.20 \keywords
               {Bias-adjustment,Uncertainty, rainfall-events, climate change}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -150,28 +140,251 @@ and I'll forget about whatever was undefined.
 [1
 
 {C:/Users/Usuario/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-(ARTICLE.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+! LaTeX Error: Unknown float option `H'.
 
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.46 \begin{figure}[H]
+                        % H quiere decir aqui 'here'
+Option `H' ignored and `p' used.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 49.
+[2]
+! Undefined control sequence.
+l.67 ...for each station, reformulated as $ \lvert
+                                                  {\xi} - {\omega}\rvert \cd...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.67 ...rmulated as $ \lvert{\xi} - {\omega}\rvert
+                                                   \cdot 100/ \omega$, where...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.70 \mu \pm t_{\alpha/2} \cdot \dfrac
+                                      {\sigma}{\sqrt{n}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! Package inputenc Error: Unicode character σ (U+03C3)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.74 ...lpha$ = 1 - 0.95 = 0.05), and $\mu$ and σ
+                                                   are respectively the mean...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+LaTeX Warning: Command \textfractionsolidus invalid in math mode on input line 
+74.
+
+
+LaTeX Warning: Command \textfractionsolidus invalid in math mode on input line 
+74.
+
+
+! LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 \begin{table}[H]
+                     
+Option `H' ignored and `p' used.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.83 \begin{left}
+                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \def 
+l.84 \begin{minipage}
+                     {300pt}
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+! Undefined control sequence.
+l.87 \toprule
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra alignment tab has been changed to \cr.
+<template> \unskip \hfil }\endtemplate 
+                                       
+l.88 Time-series & Dec-Feb & Mar-May & Jun-Aug &
+                                                 Sep-Nov \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Undefined control sequence.
+<recently read> \midrule 
+                         
+l.89 \midrule
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra alignment tab has been changed to \cr.
+<template> \unskip \hfil }\endtemplate 
+                                       
+l.90 ... 53\% (24\%) & 56\% (43\%)& 316\% (243\%)&
+                                                   71\% (65\%) \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \unskip \hfil }\endtemplate 
+                                       
+l.91 ...& 4.7\% (2\%) & 5.8\% (2\%)& 17.7\% (6\%)&
+                                                   6.4\% (2\%) \\
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Undefined control sequence.
+<recently read> \botrule 
+                         
+l.92 \botrule
+             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Command \end{left} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 \end{center}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 \end{center}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 \end{center}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{left} on input line 83 ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 \end{center}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.95 \end{center}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.95 \end{center}
+                 
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[3] [4] (ARTICLE.aux) ) 
 Here is how much of TeX's memory you used:
- 1192 strings out of 480224
- 18312 string characters out of 2889973
- 301275 words of memory out of 3000000
- 17806 multiletter control sequences out of 15000+200000
- 539336 words of font info for 43 fonts, out of 3000000 for 9000
+ 1212 strings out of 480224
+ 18516 string characters out of 2889973
+ 307275 words of memory out of 3000000
+ 17825 multiletter control sequences out of 15000+200000
+ 540902 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,6n,58p,153b,189s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on ARTICLE.pdf (1 page, 81265 bytes).
+ 49i,11n,58p,877b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program F
+iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb
+><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program F
+iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on ARTICLE.pdf (4 pages, 139282 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
