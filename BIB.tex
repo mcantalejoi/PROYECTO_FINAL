@@ -13,29 +13,32 @@
 %% Proper
 \usepackage{natbib}
 \setcitestyle{round,authoryear}  
-\bibliographystyle{plainnat}
+%%\bibliographystyle{plainnat}
 
 
 
 
 \begin{document}
-
 \title{Non-Stationary frequency adaptation of biases precipitation series}
 \author{Cantalejo, M}
 \maketitle
 %%\tableofcontents
-\abstract{URL repositorio remoto: https://github.com/mcantalejoi/PROYECTO$\_$FINAL.git
+\abstract{URL: https://github.com/mcantalejoi/PROYECTO$\_$FINAL.git
 
-aquí va un resumen de lo que va el articulo
+The variability of forcings and associated hydrological processes, make Mediterranean basins of special interest as observatories of climate change.
+
+The high seasonal variability cannot be adequately reproduced using the well-known 
+empirical quantile mapping method. 
+
 }
 
 
-\keywords{Bias-adjustment,Uncertainty, rainfall-events, climate change}
+\keywords{Keywords: Bias-adjustment,Uncertainty, rainfall-events, climate change}
 
 \section{Introduction}\label{sec1}
-Climate projections from the Coordinated Regional Downscaling Experiment over Europe present interesting estimations of climate change on a high spatial resolution\cite{bib1}. Those available climate projections  from global circulation models (GCM), even regionalized, present important spatial and temporal limitations zones such as the Mediterranean, which have significant impacts on flow regime.
+Climate projections from the Coordinated Regional Downscaling Experiment over Europe present interesting estimations of climate change on a high spatial resolution \cite{bib1}. Those available climate projections  from global circulation models (GCM), even regionalized, present important spatial and temporal limitations zones such as the Mediterranean, which have significant impacts on flow regime \cite{bib2} , \cite{bib3}.
 
-Different bias-correction techniques has been developed to reduce biases from climate projections. Within the different statistical techniques, Quantile mapping outstand reducing biases which are widely-used in hydrological impacts studies. It consisit in mapping each quantile of the empirical probability distribution (ECDF)from simulated historical series into each ECDF's quantile of the observations. The same correction is them applied to future climate projections. The application of this technique, is however, applied under the assumption of the stationary behavior. However, climatic variables such as precipitation, present an clear non-stationary patterns,in occurrence and amount of rainfall event, through the annual cycle. This works aims to study the impact of bias-correctiing precipitation occurrence by the application of Quantile Mapping. 
+Different bias-correction techniques has been developed to reduce biases from climate projections. Within the different statistical techniques, Quantile mapping outstand reducing biases which are widely-used in hydrological impacts studies \cite{bib4}. It consisit in mapping each quantile of the empirical probability distribution (ECDF) from simulated historical series into each ECDF's quantile of the observations. The same correction is them applied to future climate projections \cite{bib5}. The application of this technique, is however, applied under the assumption of the stationary behavior. However, climatic variables such as precipitation, present an clear non-stationary patterns,in occurrence and amount of rainfall event, through the annual cycle \cite{bib6}. This works aims to study the impact of bias-correctiing precipitation occurrence by the application of Quantile Mapping. 
 
 The paper is organized as follows. In section 3 the methodology and data avaiable is described. In sections 4 shows the results obtained from the application of the non-stationary method and a brief conclussion.  
 
@@ -51,7 +54,8 @@ This available information was used in combination with a set of climate project
 The methodology presented in this work can be subdivided into the following main steps: (i) the non-stationary analisys of rainfall frequency from modelled and observed precipitation (ii)the application of the non-stationary Frequency adaptation(ns-FA) and (iii) the validation of the unbiases series with observations.
 
 \subsubsection{Non-Stationary analysis of rainfall frequency} 
-The analysis of the rainfall frequency started with the definition of a wet-day threshold according to observations. This varies throughout the literature, from $p_{0}$> 0.1mm/day (Inés and Hanse, 2009) to $p_{0}$> 1mm/day(Kjellström et al. 2010). 
+The analysis of the rainfall frequency started with the definition of a wet-day threshold according to observations. This varies throughout the literature, from $p_{0}$> 0.1mm/day \cite{bib7} to $p_{0}$> 1mm/day \cite{bib8}. 
+
 The adaptation of rainfall occurrence from simulations is successfully achieved by editing this threshold as a time-dependent parameter $p_{0}^{BC}$ (t)  , to ensure the same proportion of rainfall days throughout the year in both, observations and hindcast data series (1970-2000). 
 
 
@@ -74,7 +78,7 @@ p_0^{BC}(t) = F^{-1}(F_*(p_0,t),t)
 \subsubsection{Quantifying performance} 
 After applying \ref{E1} to remove non-stationary biases from hindcast and projected series, several diagnostic parameters proposed in the VALUE initiative, are used to validate the performance of the downscaling method: number of wet-days per month $n_{wet}$
 
-To evaluate them, we employ the relative bias $\Delta$ (Ban et al., 2021), defined as $\Delta(m) =(\xi-\omega)/\omega \cdot 100$, where m refers to each month of the year, $\xi$ is the mean performance of each metric per month related to the simulated series during the reference period (1970-2000) and $\omega$ analogously for the observations. Simulated series could be referred to (a) raw simulations, (b)non-stationary corrected series, which allows to compare the biases-removal from each source of information. 
+To evaluate them, we employ the relative bias $\Delta$ \cite{bib9}, defined as $\Delta(m) =(\xi-\omega)/\omega \cdot 100$, where m refers to each month of the year, $\xi$ is the mean performance of each metric per month related to the simulated series during the reference period (1970-2000) and $\omega$ analogously for the observations. Simulated series could be referred to (a) raw simulations, (b)non-stationary corrected series, which allows to compare the biases-removal from each source of information. 
 
 Due the variability between simulated series from the 9 GCM-RCMs selected, it is calculated the time-dependent error ($\delta$) for each station, reformulated as $ \lvert{\xi} - {\omega}\rvert \cdot 100/ \omega$, where ${\xi}$ is the average value of $\xi$ (referred to each RCM). The expression $\Delta(m)$ is then averaged between stations. For each season, is considered a three-month period were the mean ($\mu$) and the 95-level confidence interval (95CI) of the  $\Delta(m)$, were calculated as: 
 
