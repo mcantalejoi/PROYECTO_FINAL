@@ -1,4 +1,0 @@
-\babel@toc {spanish}{}
-\contentsline {part}{I\hspace {1em}Parte}{1}{}%
-\contentsline {section}{\numberline {1}Sección}{1}{}%
-\contentsline {subsection}{\numberline {1.1}Subseccion}{1}{}%
