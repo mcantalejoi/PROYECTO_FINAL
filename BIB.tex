@@ -33,10 +33,10 @@ empirical quantile mapping method.
 }
 
 
-\keywords{Keywords: Bias-adjustment,Uncertainty, rainfall-events, climate change}
+%\keywords{Keywords: Bias-adjustment,Uncertainty, rainfall-events, climate change}
 
 \section{Introduction}\label{sec1}
-Climate projections from the Coordinated Regional Downscaling Experiment over Europe present interesting estimations of climate change on a high spatial resolution \cite{bib1}. Those available climate projections  from global circulation models (GCM), even regionalized, present important spatial and temporal limitations zones such as the Mediterranean, which have significant impacts on flow regime \cite{bib2} , \cite{bib3}.
+Climate projections from the Coordinated Regional Downscaling Experiment over Europe present interesting estimations of climate change on a high spatial resolution  \cite{bib1}. Those available climate projections  from global circulation models (GCM), even regionalized, present important spatial and temporal limitations zones such as the Mediterranean, which have significant impacts on flow regime \cite{bib2} , \cite{bib3}.
 
 Different bias-correction techniques has been developed to reduce biases from climate projections. Within the different statistical techniques, Quantile mapping outstand reducing biases which are widely-used in hydrological impacts studies \cite{bib4}. It consisit in mapping each quantile of the empirical probability distribution (ECDF) from simulated historical series into each ECDF's quantile of the observations. The same correction is them applied to future climate projections \cite{bib5}. The application of this technique, is however, applied under the assumption of the stationary behavior. However, climatic variables such as precipitation, present an clear non-stationary patterns,in occurrence and amount of rainfall event, through the annual cycle \cite{bib6}. This works aims to study the impact of bias-correctiing precipitation occurrence by the application of Quantile Mapping. 
 
@@ -61,7 +61,7 @@ The adaptation of rainfall occurrence from simulations is successfully achieved 
 
 \begin{figure}[H]  % H quiere decir aqui 'here' 
 \centering
-%%\includegraphics[width=1\textwidth]{IMAGENES/F9.pdf}
+\includegraphics[scale=0.26]{Fig1.PNG}
 \caption{. Iso-value curves of the non-exceedance probability precipitation of $p_{o}=$ 0.1 mm/day. Black solid line stands for observations, black dashed line stands for hindcast from SMHI-IPSL-IPSL-CM5A-MR. X-axis represents julian days and months. }
 \label{F1}
 \end{figure}
@@ -87,7 +87,7 @@ Due the variability between simulated series from the 9 GCM-RCMs selected, it is
 \label{E2}
 \end{equation}
 
-where $\alpha$  refers to the level of the confidence interval (eg: $\alpha$ = 1 - 0.95 = 0.05), and $\mu$ and $\σ$ are respectively the mean and the standard deviation of the sample. The number of values for each sample (n=9), implies the use of a t-student distribution ($t_\alpha⁄2$) for the estimate of the 95CI. Analogue to $\Delta$, it is assessed the uncertainty of the projected changes ($\delta$), by associated mean ($\mu$) and the 95-level confidence interval (95CI). 
+where $\alpha$  refers to the level of the confidence interval (eg: $\alpha = 1 - 0.95 = 0.05$), and $\mu$ and $\sigma$ are respectively the mean and the standard deviation of the sample. The number of values for each sample (n=9), implies the use of a t-student distribution ($t_\alpha⁄2$) for the estimate of the 95CI. Analogue to $\Delta$, it is assessed the uncertainty of the projected changes ($\delta$), by associated mean ($\mu$) and the 95-level confidence interval (95CI). 
 
 
 \section{Results}\label{sec4}
@@ -95,20 +95,20 @@ where $\alpha$  refers to the level of the confidence interval (eg: $\alpha$ = 1
 The $\mu$ from $\Delta n_{wet}$  and 95CI  is reduced from raw rainfall series to frequency adapted series by both approaches. The reduction achieved by the ns-FA is significant for all seasons, although the less reduction appears during summer. Another important aspect is the reduction obtained for the 95\% confident interval which means a higher agreement between corrected simulated series among different RCMs. In this sense, ns-FA also obtained a higher reduction of the uncertainty reaching the highest value on summer. 
 
 \begin{table}[H]
-\begin{left}
+%\begin{left}
 \begin{minipage}{300pt}
 \caption{Caption text}\label{tab1}%
-\begin{tabular}{@{}llll1@{}}
+\begin{tabular}{ccccc}
 
 \toprule
 Time-series & Dec-Feb & Mar-May & Jun-Aug & Sep-Nov \\
 \midrule
 raw RCM's    & 53\% (24\%) & 56\% (43\%)& 316\% (243\%)& 71\% (65\%) \\
 ns-FA        & 4.7\% (2\%) & 5.8\% (2\%)& 17.7\% (6\%)& 6.4\% (2\%) \\
-\botrule
+
 \end{tabular}
 \end{minipage}
-\end{center}
+%\end{left}
 \end{table}
 
 

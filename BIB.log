@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2021.4.21)  15 MAY 2022 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2021.4.21)  16 MAY 2022 21:08
 entering extended mode
 **./BIB.tex
 (BIB.tex
@@ -439,22 +439,6 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
 ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-! Undefined control sequence.
-l.36 \keywords
-              {Keywords: Bias-adjustment,Uncertainty, rainfall-events, clima...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (19.25073pt too wide) in paragraph at lines 36--37
-[]\OT1/cmr/m/n/10 Keywords: Bias-adjustment,Uncertainty, rainfall-events, cli-m
-ate change 
- []
-
-
 Overfull \hbox (1.41743pt too wide) in paragraph at lines 41--42
 \OT1/cmr/m/n/10 map-ping each quan-tile of the em-pir-i-cal prob-a-bil-ity dis-
 tri-bu-tion (ECDF)
@@ -462,34 +446,14 @@ tri-bu-tion (ECDF)
 
 [1
 
-{C:/Users/Usuario/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
-! Undefined control sequence.
-<recently read> \Ï
-                  
-l.90 ...pha$ = 1 - 0.95 = 0.05), and $\mu$ and $\Ï
-                                                  ƒ$ are respectively the me...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! Package inputenc Error: Invalid UTF-8 byte "83.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.90 ...ha$ = 1 - 0.95 = 0.05), and $\mu$ and $\Ïƒ
-                                                  $ are respectively the mea...
-
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
+{C:/Users/Usuario/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+<Fig1.PNG, id=10, 1358.676pt x 672.8337pt>
+File: Fig1.PNG Graphic file (type png)
+<use Fig1.PNG>
+Package pdftex.def Info: Fig1.PNG  used on input line 64.
+(pdftex.def)             Requested size: 353.24742pt x 174.93263pt.
+ [2]
+[3 <./Fig1.PNG>]
 
 LaTeX Warning: Command \textfractionsolidus invalid in math mode on input line 
 90.
@@ -498,140 +462,25 @@ LaTeX Warning: Command \textfractionsolidus invalid in math mode on input line
 LaTeX Warning: Command \textfractionsolidus invalid in math mode on input line 
 90.
 
-[3]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.98 \begin{left}
-                 
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Missing delimiter (. inserted).
-<to be read again> 
-                   \def 
-l.99 \begin{minipage}
-                     {300pt}
-I was expecting to see something like `(' or `\{' or
-`\}' here. If you typed, e.g., `{' instead of `\{', you
-should probably delete the `{' by typing `1' now, so that
-braces don't get unbalanced. Otherwise just proceed.
-Acceptable delimiters are characters whose \delcode is
-nonnegative, or you can use `\delimiter <delimiter code>'.
-
-
-! Package array Error:  Illegal pream-token (1): `c' used.
-
-See the array package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 \begin{tabular}{@{}llll1@{}}
-                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-<recently read> \botrule 
-                         
-l.108 \botrule
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (22.51085pt too wide) in paragraph at lines 101--110
+Overfull \hbox (34.51085pt too wide) in paragraph at lines 101--110
 [][] 
  []
 
-
-! LaTeX Error: Command \end{left} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 \end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \begin{left} on input line 98 ended by \end{center}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 \end{center}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing \right. inserted.
-<inserted text> 
-                \right .
-l.111 \end{center}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.111 \end{center}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-(BIB.bbl) [4]
+(BIB.bbl [4]) [5]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
 (LaTeX3)     122.
 
  (BIB.aux) ) 
 Here is how much of TeX's memory you used:
- 4871 strings out of 480224
- 69701 string characters out of 2889973
- 409766 words of memory out of 3000000
- 21361 multiletter control sequences out of 15000+200000
+ 4877 strings out of 480224
+ 69765 string characters out of 2889973
+ 410766 words of memory out of 3000000
+ 21365 multiletter control sequences out of 15000+200000
  545488 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,11n,99p,925b,275s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 96i,9n,99p,925b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Usuario\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
 /dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
@@ -644,9 +493,9 @@ c/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb>
-Output written on BIB.pdf (4 pages, 155321 bytes).
+Output written on BIB.pdf (5 pages, 345785 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
