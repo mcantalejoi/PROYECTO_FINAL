@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2021.4.21)  16 MAY 2022 21:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2021.4.21)  16 MAY 2022 21:24
 entering extended mode
 **./BIB.tex
 (BIB.tex
@@ -439,7 +439,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
 ("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (1.41743pt too wide) in paragraph at lines 41--42
+Overfull \hbox (1.41743pt too wide) in paragraph at lines 37--38
 \OT1/cmr/m/n/10 map-ping each quan-tile of the em-pir-i-cal prob-a-bil-ity dis-
 tri-bu-tion (ECDF)
  []
@@ -450,27 +450,27 @@ tri-bu-tion (ECDF)
 <Fig1.PNG, id=10, 1358.676pt x 672.8337pt>
 File: Fig1.PNG Graphic file (type png)
 <use Fig1.PNG>
-Package pdftex.def Info: Fig1.PNG  used on input line 64.
+Package pdftex.def Info: Fig1.PNG  used on input line 60.
 (pdftex.def)             Requested size: 353.24742pt x 174.93263pt.
  [2]
 [3 <./Fig1.PNG>]
 
 LaTeX Warning: Command \textfractionsolidus invalid in math mode on input line 
-90.
+86.
 
 
 LaTeX Warning: Command \textfractionsolidus invalid in math mode on input line 
-90.
+86.
 
 
-Overfull \hbox (34.51085pt too wide) in paragraph at lines 101--110
+Overfull \hbox (34.51085pt too wide) in paragraph at lines 97--106
 [][] 
  []
 
 (BIB.bbl [4]) [5]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     122.
+(LaTeX3)     118.
 
  (BIB.aux) ) 
 Here is how much of TeX's memory you used:
@@ -493,7 +493,7 @@ c/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb>
-Output written on BIB.pdf (5 pages, 345785 bytes).
+Output written on BIB.pdf (5 pages, 346133 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
